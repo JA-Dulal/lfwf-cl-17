@@ -1,0 +1,447 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+
+
+/*================deader-saction============*/
+
+
+
+
+
+.header{
+    background-color: black;
+}
+
+
+.main-menu img{
+margin-top: 6px;
+    width: 80px;
+}
+
+.main-menu{}
+.main-menu ul{
+    
+}
+.main-menu ul li{
+    display: inline-block;
+   
+    color: #ddd;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 20px;
+    margin-top: 8px;
+}
+.main-menu ul li a{
+    display: block;
+    text-decoration:   none;
+    color: #ddd;
+   
+}
+.main-menu ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu ul li{
+    position: relative;
+}
+
+
+.main-menu ul li ul{ 
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    padding: 20px 40px;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center ;
+
+}
+.main-menu ul li ul li{
+    
+}
+.main-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    
+
+}
+
+
+/*============motel-saction============*/
+
+
+
+.text-side h3{
+    color: #fff;
+    padding-top: 80px;
+    font-size: 40px;
+    }
+    
+    .text-side p{
+        color: #fff;
+    
+    }
+    .image1{
+        float: left;
+        width: 680px;
+        border: 1px solid #fff;
+        margin: 80px 0;
+    
+    }
+    .image2{
+        width: 680px;
+        border: 1px solid #fff;
+        float: right;
+        margin: 80px 0;
+    
+    }
+    
+    .main-image{
+        background-color: rgb(137,165,116);
+        
+    }
+    .main-image img{
+    width: 680px;
+    
+    }
+    
+    .mid-contant{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    .image1 p{
+        color: #fff;
+    }
+    
+    .image2 p{
+        color: #fff;
+    }
+    
+    .image1 h5{
+        color: rgb(55, 67, 116);
+    margin-top: 35px;
+    }
+    .image2 h5{
+        color: rgb(55, 67, 116);
+        margin-top: 35px;
+    }
+    
+
+
+
+/*==========banner-saction=========*/
+
+
+
+
+
+
+.bg-image{
+    background-image: url(https://i.ibb.co/cNtGG3K/bg-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px;
+}
+.bg-image h1{
+    font-weight: bolder;
+}
+.bg-image h5{
+    font-weight: bold;
+    padding-bottom: 30px; 
+    margin-top: 30px;
+}
+.bg-image a{
+    padding: 17px 26px;
+    font-size: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right:10px ;
+
+}
+.start-now{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.start-now:hover{
+background-color: rgb(228, 228, 228);
+color: rgb(0, 0, 0);
+border-radius: 10px;
+border: 1px solid #000;
+}
+.start-now1{
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+.start-now1:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 10px
+}
+
+
+
+
+
+/*=========about-saction=================*/
+
+
+
+
+
+
+.about-saction{
+    background-color: rgb(137,165,116);
+    
+}
+
+.about-saction h1{
+margin: 30px 0;
+border-bottom: 3px solid rgb(255, 255, 255);
+font-weight: bold;
+display: inline-block;
+color: #fff;
+padding: 10px 0;
+text-shadow: 0px 0px 3px;
+font-size: 55px;
+}
+.about-saction img{
+    width: auto;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.about-saction p{
+    margin-top: 60px;
+    color: #fff;
+}
+
+
+
+
+/*==============seevise-saction====================*/
+
+
+
+
+.service-saction-text{
+    background-color: rgb(82, 82, 82);
+}
+.service-saction-text h1{
+    margin: 10px 0;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 45px;
+    text-shadow: 0px 0px 3px;
+    
+}
+.service-saction-text h3{
+    color: #fff;
+    font-size: 35px;
+}
+.service-saction-text p{
+    color: #fff;
+    margin: 10px;
+
+}
+
+
+
+.service-saction-box{
+    background-color: rgb(82, 82, 82);
+    padding: 60px;
+
+}
+.service-saction-box img{
+    margin-top: 10px;
+}
+
+.boxxxxx{
+    background-color: #fff;
+    margin: 0 -90px;
+    width:380PX;
+    padding: 20PX 0;
+    border-radius: 20px;
+    
+}
+
+.boxxxxx1{ 
+    margin: 0 256px;
+    background-color: #fff;
+    width:380PX;
+    padding: 20PX 0;
+    border-radius: 20px;
+}
+
+.boxxxxx2{
+    background-color: #fff;
+    width:380PX;
+    padding: 20PX 0;
+    border-radius: 20px;
+    margin: 0 -107px;
+}
+
+
+.service p{
+    padding: 10px 0;
+    color:gray;
+    
+}
+
+.service h2{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+/*=============product-saction======================*/
+
+
+.product-text-saction{
+    background-color: rgb(137,165,116);
+}
+.product-text-saction h3{
+    font-size: 40px;
+    margin-top: 60px;
+    color: #fff;
+}
+.product-text-saction{
+    color: #ddd;
+}
+.product-text-saction img{
+    width: 600px;
+    
+    
+}
+
+
+
+
+.image-tag{
+    margin-bottom: 80px;
+
+}
+
+
+/*==================photo-saction==============*/
+
+.div-border{
+width: 400px;
+height: 5px;
+background-color: #fff;
+margin-left: 450px;
+margin-bottom: 60px;
+
+
+}
+
+.photo-saction{
+    background-color: rgb(90,149,119);
+    padding-bottom: 60px;
+}
+.photo-saction h2{
+    margin-top: 60px;
+    border-width: 5px;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 50px;
+}
+
+
+
+.photo-saction i{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 15px;
+    padding: 0 10px;
+    transition: .4s;
+}
+.photo-saction i:hover{
+    color: rgb(85, 84, 84);
+}
+.photo-saction img{
+    
+}
+.image-tt{
+    width: 400px;
+    margin-left: 30px;
+    text-align: center;
+}
+.text-saction{
+    background-color: rgb(94,105,101);
+    padding: 100px 0;
+}
+.text-saction p{
+    color: #ddd;
+    text-align: center;
+}
+.text-saction h1{
+    color: #ddd;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.text-saction a{
+    color: #ddd;
+    padding: 10px 40px;
+    background-color: rgb(3,186,152);
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.text-saction a:hover{
+    background-color: rgb(19, 66, 97);
+    color: #ddd;
+}
+
+.footer{
+    background-color: #000;
+    text-align: center;
+}
+.footer h4{
+    color: #ddd;
+    padding: 20px 0;
+}
